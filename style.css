@@ -20,6 +20,7 @@ body{
     display: flex;
     column-gap: 25px;
     margin-right: 10px;
+    
 
 }
 
@@ -28,8 +29,40 @@ body{
     color: #1d232c;
 }
 
+.navbar-link a:hover{
+    text-decoration: underline;
+}
+
 .navbar-menu-toggle{
     display: none;
+}
+
+/* side Navbar*/
+
+.side-navbar{
+    background-color: #1d232c;
+    width: 35%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -70%;
+    padding: 20px;
+    color: white;
+    transition: 1s;
+    
+}
+
+.side-navbar-link{
+    margin-top: 40px;
+}
+
+.side-navbar-links a{
+    text-decoration: none;
+    color: white;
+}
+
+.side-navbar-links a:hover{
+    text-decoration: underline;
 }
 
 /*  Media Query  */
