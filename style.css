@@ -228,8 +228,8 @@ body{
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 100%;
-    height: 520px;
-    max-width: 470px;
+    height: 420px;
+    width: 400px;
     margin-top: 40px;
     margin-left: 30%;
 }
@@ -243,7 +243,7 @@ body{
 form label {
     display: block;
     margin-bottom: 8px;
-    font-weight: bold;
+    font-weight: 600;
     color: whitesmoke;
 }
 
