@@ -220,6 +220,103 @@ body{
 }
 
 
+/* ==============================  Contact page start  ==============================  */
+
+.contact-container {
+    background-color: #1d232c;
+    padding:50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 520px;
+    max-width: 470px;
+    margin-top: 40px;
+    margin-left: 30%;
+}
+
+.contact-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.contact-input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+
+/* fooder contact */
+
+.footer-contact {
+    background-color: #1d232c;
+    color: #fff;
+    padding: 20px 0;
+
+    margin-top: 40px;
+}
+
+ .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+.footer-section {
+    padding: 10px;
+    min-width: 250px;
+    margin-bottom: 5px;
+}
+
+.footer-section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.section-about{
+    margin-left: 40px;
+
+}
+
+.section-contact{
+    margin-left: 200px;
+}
+
+.footer-bottom {
+    background-color: #1d232c;
+    font-size: 12px;
+}
+
 /*  Media Query  */
 
 @media  screen and (max-width:700px) {
@@ -241,5 +338,18 @@ body{
     
     .service-container-2{
         flex-direction: column;
+    }
+
+    .contact-container{
+        max-width: 250px;
+        margin-left: 40px;
+    }
+
+    .contact-container h1{
+        margin-top: -20px;
+    }
+
+    .section-contact{
+        margin-left: 40px;
     }
 }

@@ -36,7 +36,27 @@
             <i class="fa-solid fa-bars"></i>
         </div>
     
+        <!--  Contact  -->
+          
     </nav>
+    <div class="contact-container">
+        <h1>Contact Us</h1>
+        <form action="#" method="post">
+            <label for="name">Name</label>
+            <input class="contact-input" type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input class="contact-input" type="email" id="email" name="email" required>
+
+            <label for="subject">Subject</label>
+            <input class="contact-input" type="text" id="subject" name="subject" required>
+
+            <label for="message">Message</label>
+            <textarea class="contact-input" id="message" name="message" rows="4" required></textarea>
+
+            <button class="button-js" type="submit" onclick="summit()">Send Message</button>
+        </form>
+    </div>
 
     <!--  Side Navbar  -->
 
@@ -54,11 +74,11 @@
 
     <!--  Footer  -->
 
-    <div class="footer">
+   <!-- <div class="footer">
         <div class="footer-container">
             <div class="footer-box-1">
-                <h3 class="headingtext">Nostra</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <h3 class="headingtext">Contact Us</h3>
+                <p>We are a company dedicated to providing the best services to our customers.</p>
                 <div class="footer-icon-container">
                     <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
                     <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
@@ -68,7 +88,31 @@
         </div>
 
         <p>@2024 Nostra.com </p>
-    </div>
+    </div>  -->
+
+
+    <footer class="footer-contact">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <div class="section-about">
+                <h2>About Us</h2>
+                <p>We are a company dedicated to providing the best services to our customers.</p>
+                <div class="footer-bottom">
+                    &copy; 2024 Your Company | Designed by You
+                </div>
+            </div>
+            </div>
+
+            <div class="footer-section contact">
+              <div class="section-contact">
+                <h2>Contact Us</h2>
+                <p>Email <i class="fa-solid fa-envelope"></i> : nostragallery@gmail.com</p>
+                <p>Phone <i class="fa-solid fa-phone"></i> : +123-456-7890</p>
+              </div>
+            </div>
+        </div>
+
+    </footer>
 
 
 
