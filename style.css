@@ -37,7 +37,7 @@ body{
     display: none;
 }
 
-/* side Navbar*/
+/* ==============================  side Navbar  ============================== */
 
 .side-navbar{
     background-color: #1d232c;
@@ -86,7 +86,7 @@ body{
     border-radius: 5px;
 }
 
-/*  Service  */
+/* ==============================  Service  ==============================  */
 
 .service{
     padding: 20px;
@@ -112,7 +112,7 @@ body{
     margin-top: 10px;
 }
 
-/*  New Arrival  */
+/* ==============================  New Arrival  ============================== */
 
 .new-arrival{
     display: flex;
@@ -137,7 +137,7 @@ body{
     border: none;
 }
 
-/*  News  */
+/* ==============================  News  ============================== */
 
 .news{
     display: flex;
@@ -163,7 +163,7 @@ body{
     border: none;
 }
 
-/*  Fooder  */
+/* ==============================  Fooder  ============================== */
 
 .footer{
     margin-top: 20px;
@@ -272,13 +272,12 @@ form button:hover {
 }
 
 
-/* fooder contact */
+/* ==============================  fooder contact  ============================== */
 
 .footer-contact {
     background-color: #1d232c;
     color: #fff;
     padding: 20px 0;
-
     margin-top: 40px;
 }
 
@@ -305,7 +304,6 @@ form button:hover {
 
 .section-about{
     margin-left: 40px;
-
 }
 
 .section-contact{
@@ -317,7 +315,7 @@ form button:hover {
     font-size: 12px;
 }
 
-/*  Media Query  */
+/* ==============================  Media Query  ============================== */
 
 @media  screen and (max-width:700px) {
     .navbar-menu-toggle{
