@@ -217,6 +217,12 @@ body{
 
 .products-box img{
     border-radius: 8PX;
+    object-fit: cover;
+    transition:0.2s;
+}
+
+.products-box:hover img {
+    transform: scale(1.1);
 }
 
 
