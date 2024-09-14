@@ -16,5 +16,5 @@ function shownavbar()
 
  function summit()
  {
-    alert.table("Send Message Successfully.❤️")
+    alert("Send Message Successfully.❤️")
  }
